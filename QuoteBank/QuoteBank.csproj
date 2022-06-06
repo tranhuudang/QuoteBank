@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Tran Huu Dang</Authors>
+    <Company>ZeroClub</Company>
+    <Description>A library of quote which provide famous US and Vietnamese quotations.</Description>
+    <PackageIcon>quote.png</PackageIcon>
+    <RepositoryUrl>https://www.github.com/tranhuudang/QuoteBank</RepositoryUrl>
+    <Copyright>Tran Huu Dang</Copyright>
+    <PackageTags>famous; quote; quotation</PackageTags>
+    <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="licenses\**" />
+    <EmbeddedResource Remove="licenses\**" />
+    <None Remove="licenses\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\quote.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+	<PropertyGroup>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+</PropertyGroup>
+
+<ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+</ItemGroup>
+</Project>
