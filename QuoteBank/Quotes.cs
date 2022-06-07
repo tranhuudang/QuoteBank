@@ -58,7 +58,7 @@
         /// <returns></returns>
         public string getQuote(int number, string language)
         {
-            string? outQuote = null;
+            string outQuote = "";
             switch (language)
             {
                 case "vi":
@@ -80,7 +80,7 @@
         public string getQuote(string language)
         {
             Random random = new Random();
-            string? outQuote = null;
+            string outQuote = "";
             switch (language)
             {
                 case "vi":

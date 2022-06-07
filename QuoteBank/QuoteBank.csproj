@@ -1,18 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
+	  <LangVersion>preview</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Tran Huu Dang</Authors>
     <Company>ZeroClub</Company>
     <Description>A library of quote which provide famous US and Vietnamese quotations.</Description>
-    <PackageIcon>quote.png</PackageIcon>
+    <PackageIcon>quote-icon-png-7.jpg</PackageIcon>
     <RepositoryUrl>https://www.github.com/tranhuudang/QuoteBank</RepositoryUrl>
     <Copyright>Tran Huu Dang</Copyright>
     <PackageTags>famous; quote; quotation</PackageTags>
-    <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
+    <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,16 +23,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\quote.png">
+    <None Include="..\..\..\..\Downloads\quote-icon-png-7.jpg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 	<PropertyGroup>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.4</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 </PropertyGroup>
 
 <ItemGroup>
-    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+</ItemGroup>
+
+<ItemGroup>
+  <Reference Include="System.Net.Http" />
+</ItemGroup>
+
+<ItemGroup>
+  <None Update="README.md">
+    <Pack>True</Pack>
+    <PackagePath>\</PackagePath>
+  </None>
 </ItemGroup>
 </Project>
