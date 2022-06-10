@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuoteBank.Languages
 {
-    public static class zh_CN
+    internal class zh_CN
     {
-        public static string[] quote_chinese ={
+        public static string[] ForMotivation ={
             "虚心竹有低头叶",
             "人无横财不富，马无夜草不肥",
             "丰年莫忘歉年苦，饱时莫忘饥时难",
@@ -60,5 +60,9 @@ namespace QuoteBank.Languages
             "言必信，行必果",
             "山山有老虎，处处有强人	"
             };
+        public static string[] ForLove = { };
+        public static string[] ForGod = { };
+        public static string[] ForWisdom = { };
+        public static string[] ForTeen = { };
     }
 }

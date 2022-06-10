@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuoteBank.Languages
 {
-    public static class vi_VI
+    public class vi_VI
     {
-        public static string[] quote_vietnamese = {
+        public static string[] ForMotivation = {
             "Có công mài sắt có ngày nên kim.",
             "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
             "Ai ơi giữ chí cho bền, dù ai xoay hướng đổi nền mặc ai.",
@@ -57,5 +57,10 @@ namespace QuoteBank.Languages
             "Chăm chỉ đánh bại tài năng khi tài năng không chăm chỉ."
 
         };
+        public static string[] ForLove = { };
+        public static string[] ForGod = { };
+        public static string[] ForWisdom = { };
+        public static string[] ForTeen = { };
+
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuoteBank.Languages
 {
-    public static class en_US
+    public class en_US
     {
-        public static string[] quote_english =
+        public static string[] ForMotivation =
       {
             "Don’t wish it were easier; wish you were better.",
             "There are no limits!",
@@ -49,5 +49,9 @@ namespace QuoteBank.Languages
             "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
 
         };
+        public static string[] ForLove = { };
+        public static string[] ForGod = { };
+        public static string[] ForWisdom = { };
+        public static string[] ForTeen = { };
     }
 }
