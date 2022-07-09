@@ -1,11 +1,11 @@
-* In QuoteBank we have two method to get a quote out of library called: 'getQuote();'.
-* You can get a random quote by provide region in the getQuote parameter: 'getQuote("en-US")' for English. 
-* In the future, we'll' try to cover more language support.
-* Supported language: English(en-US), Vietnamese(vi-VI).
+* Get a random quotation in a topic by just a few line of code. 
+* Supported language: Chinese, English, Vietnamese.
+* In the future, we'll' try to cover more language.
+
 * Example:
 ```
 using QuoteBank;
 ...
 Quotes quotes = new Quotes();
-lbQuotation.Text = quotes.getQuote("en-US");
+lbQuotation.Text = quotes.English.ForWisdom;
 ```

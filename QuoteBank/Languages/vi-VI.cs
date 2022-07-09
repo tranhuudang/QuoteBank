@@ -57,10 +57,51 @@ namespace QuoteBank.Languages
             "Chăm chỉ đánh bại tài năng khi tài năng không chăm chỉ."
 
         };
-        public static string[] ForLove = { };
-        public static string[] ForGod = { };
-        public static string[] ForWisdom = { };
-        public static string[] ForTeen = { };
+        public static string[] ForLove = {
+            "Với thế giới, bạn có thể chỉ là một người, nhưng với một người, bạn có thể là cả thế giới.",
+            "Tình yêu đến với những ai vẫn hy vọng dù đã từng thất vọng, vẫn tin tưởng dù từng bị phản bội, vẫn yêu thương dù từng bị tổn thương.",
+            "Yêu không chỉ là một danh từ – nó là một động từ; nó không chỉ là cảm xúc – nó là quan tâm, chia sẻ, giúp đỡ, hy sinh.",
+            "Một nụ hôn phá tan khoảng cách giữa tình bạn và tình yêu.",
+            "Lực hấp dẫn không chịu trách nhiệm cho việc con người ta yêu nhau.",
+            "Chúng ta bảo tình yêu là sự sống; nhưng tình yêu không có hy vọng và niềm tin là cái chết đau đớn.",
+            "Tình bạn có thể và thường phát triển thành tình yêu, nhưng tình yêu thì không bao giờ dịu đi thành tình bạn.",
+            "Những người yêu thương sâu sắc tin vào điều không thể.",
+            "Nhớ một người là cách trái tim nhắc nhở rằng bạn yêu người ấy.",
+            "Hạnh phúc lớn nhất ở đời là có thể tin chắc rằng ta được yêu thương – yêu vì chính bản thân ta, hay đúng hơn, yêu bất kể bản thân ta.",
+            "Tình yêu là trạng thái mà khi đó hạnh phúc của một người khác trở nên cực kỳ quan trọng đối với hạnh phúc của bạn.",
+            "Tình yêu là trạng thái mà khi đó hạnh phúc của một người khác trở nên cực kỳ quan trọng đối với hạnh phúc của bạn.",
+            "Chỉ mất 3 giây để nói lời yêu, nhưng phải mất cả cuộc đời để chứng minh điều đó.",
+            "Yêu thương mang lại nhiều lạc thú hơn là được yêu.",
+            "Tình yêu tìm được thì tốt, nhưng không kiếm mà được còn tốt hơn nhiều.",
+            "Chỉ có một thứ hạnh phúc trên đời, yêu và được yêu."
+        };
+        public static string[] ForWisdom = {
+            "Người lạc quan là người nhìn đâu cũng thấy đèn xanh còn người bi quan thấy khắp nơi chỉ toàn đèn đỏ… kẻ thực sự khôn ngoan thì mù màu.",
+            "Am hiểu tự hào vì mình biết quá nhiều; khôn ngoan nhún nhường rằng mình chỉ biết đến thế. ",
+            "Nếu số phận chia cho bạn những quân bài xấu, hãy để sự khôn ngoan biến bạn thành người chơi giỏi. ",
+            "Tất cả sự khôn ngoan của con người được tập hợp lại trong hai từ; chờ đợi và hy vọng. ",
+            "Thận trọng là đứa con trưởng của sự khôn ngoan.",
+            "Từ sai lầm của người khác, người khôn ngoan tự sửa chữa sai lầm của chính mình. ",
+            "Lòng tốt thiếu đi sự khôn khéo luôn luôn chẳng khác gì cái ác.",
+            "Thiên đường của kẻ khờ là địa ngục của người khôn!",
+            "Giữ bí mật của chính mình là khôn ngoan; nhưng hy vọng người khác giữ nó là khờ dại.",
+            "Một đặc điểm của sự khôn ngoan là không bao giờ hành động liều lĩnh.",
+            "Trước khi chúng ta đạt được quyền năng to lớn, chúng ta phải đạt được sự khôn ngoan để dùng tốt nó.",
+            "Người khôn học từ sai lầm của người khác, kẻ ngu xuẩn mới muốn tự phạm sai lầm.",
+            "Chúng ta trở nên khôn ngoan không phải nhờ hồi tưởng lại quá khứ, mà bởi trách nhiệm của ta đối với tương lai. ",
+            "Khắc ghi một sự thật lớn lao vào trí nhớ là đáng nể; khắc ghi nó vào đời mình là khôn ngoan.",
+            "Lòng tốt quan trọng hơn khôn ngoan, và nhận thức được điều này là bắt đầu khôn ngoan rồi.",
+            "Người khéo thường bận, người khôn hay lo.",
+            "Tri thức tới, nhưng sự khôn ngoan ở lại.",
+            "Trí khôn là sự tóm tắt của quá khứ, nhưng cái đẹp là lời hứa hẹn của tương lai.",
+            "Hãy biến những vết thương của mình trở thành sự khôn ngoan.",
+            "Thư viện đã luôn là cách của nhân loại để bảo tồn trí khôn chung của mình. ",
+            "Người khôn ngoan quyết định chậm rãi nhưng tuân thủ theo những quyết định đó.",
+            "Học hỏi mà không có trí khôn cũng giống như một đống sách chất trên lưng con lừa.",
+            "Hãy đi theo bản năng của mình. Đó là nơi trí khôn chân chính thể hiện bản thân.",
+            "Người bận rộn chẳng bao giờ khôn ngoan, và người khôn ngoan chẳng bao giờ bận rộn.",
+            "Sức mạnh không thể làm được phúc, trí khôn không thể tránh được vạ. "
+        };
 
     }
 }
