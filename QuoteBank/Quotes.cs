@@ -4,15 +4,11 @@
 using QuoteBank.Languages;
 
 namespace QuoteBank
-
-
 {
-
-   
     public class Quotes
     {
-
-    class GetQuoteFunction
+        
+        internal class GetQuoteFunction
         {
             string? Language { get; set; }
             public GetQuoteFunction(string language)
@@ -24,7 +20,7 @@ namespace QuoteBank
             /// </summary>
             /// <param name="language">Use vi as Vietnamese and en English</param>
             /// <returns></returns>
-           
+
             public string getQuote(string quoteType)
             {
                 Random random = new Random();
@@ -85,25 +81,27 @@ namespace QuoteBank
                 return "\"" + outQuote + "\"";
             }
         }
-        // quote.Chinese.General()
-        class English : en_US
+        // Quotes.English quotes = new Quotes.English();
+        // lbText.text = quotes.Motivation;
+
+        public class English : en_US
         {
-            public new string ForMotivation = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Motivation);
-            public new string ForLove = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Love);
-            public new string ForWisdom = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Wisdom);
+            public string Motivation = new GetQuoteFunction("en-US").getQuote(QuoteType.Motivation);
+            public string Love = new GetQuoteFunction("en-US").getQuote(QuoteType.Love);
+            public string Wisdom = new GetQuoteFunction("en-US").getQuote(QuoteType.Wisdom);
         }
-        class Chinese : zh_CN
+        public class Chinese : zh_CN
         {
-            public new string ForMotivation = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Motivation);
-            public new string ForLove = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Love);
-            public new string ForWisdom = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Wisdom);
+            public string Motivation = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Motivation);
+            public string Love = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Love);
+            public string Wisdom = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Wisdom);
         }
-        class Vietnamese : vi_VI
+        public class Vietnamese : vi_VI
         {
-            public new string ForMotivation = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Motivation);
-            public new string ForLove = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Love);
-            public new string ForWisdom = new GetQuoteFunction("zh-CN").getQuote(QuoteType.Wisdom);
+            public string Motivation = new GetQuoteFunction("vi-VI").getQuote(QuoteType.Motivation);
+            public string Love = new GetQuoteFunction("vi-VI").getQuote(QuoteType.Love);
+            public string Wisdom = new GetQuoteFunction("vi-VI").getQuote(QuoteType.Wisdom);
         }
-      
+        
     }
 }

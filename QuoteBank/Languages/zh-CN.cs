@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuoteBank.Languages
 {
-    internal class zh_CN
+    public class zh_CN
     {
         public static string[] ForMotivation ={
             "虚心竹有低头叶",

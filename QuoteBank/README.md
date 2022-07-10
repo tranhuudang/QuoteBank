@@ -6,6 +6,9 @@
 ```
 using QuoteBank;
 ...
-Quotes quotes = new Quotes();
-lbQuotation.Text = quotes.English.ForWisdom;
+Quotes.English quotes = new Quotes.English();
+lbText.text = quotes.Motivation;
+
+Quotes.Vietnamese quotes = new Quotes.Vietnamese();
+lbText.text = quotes.Wisdom;
 ```

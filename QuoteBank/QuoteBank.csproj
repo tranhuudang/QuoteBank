@@ -8,7 +8,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Tran Huu Dang</Authors>
     <Company>ZeroClub</Company>
-    <Description>A library of quote which provide famous US and Vietnamese quotations.</Description>
+    <Description>A library provides famous quotations in difference languages.</Description>
     <PackageIcon>quote-icon-png-7.jpg</PackageIcon>
     <RepositoryUrl>https://www.github.com/tranhuudang/QuoteBank</RepositoryUrl>
     <Copyright>Tran Huu Dang</Copyright>
@@ -30,7 +30,7 @@
   </ItemGroup>
 	<PropertyGroup>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>2.0.0</Version>
+    <Version>2.0.2</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <NeutralLanguage>en-US</NeutralLanguage>
 </PropertyGroup>
