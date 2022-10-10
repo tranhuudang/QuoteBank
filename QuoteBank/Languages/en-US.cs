@@ -49,6 +49,39 @@ namespace QuoteBank.Languages
             "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
 
         };
+        public static string[] ForFamily = {
+            "The most important thing in the world is family and love.",
+            "Nothing is better than going home to family and eating good food and relaxing.",
+            "To us, family means putting your arms around each other and being there.",
+            "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.",
+            "Other things may change us, but we start and end with the family.",
+            "Having somewhere to go is home. Having someone to love is family. And having both is a blessing.",
+            "Being a family means you are a part of something very wonderful. It means you will love and be loved for the rest of your life.",
+            "It’s all about the quality of life and finding a happy balance between work and friends and family.",
+            "Family and friendships are two of the greatest facilitators of happiness.",
+            "Treat your family like friends and your friends like family.",
+            "Family and friends are hidden treasures, seek them and enjoy their riches.",
+            "Stick to the basics, hold on to your family and friends – they will never go out of fashion.",
+            "My family is my life, and everything else comes second as far as what’s important to me.",
+            "The family is the test of freedom; because the family is the only thing that the free man makes for himself and by himself.",
+            "Our family is a circle of strength of love with every birth and every union the circle grows.",
+            "I didn’t give you the gift of life, but life gave me the gift of you.",
+            "Family is not defined by our genes, it is built and maintained through love.",
+            "We may have our differences, but nothing’s more important than family.",
+            "Life is beautiful. It’s about giving. It’s about family.",
+            "Rejoice with your family in the beautiful land of life.",
+            "Where there is family, there is love.",
+            "Family gives you the roots to stand tall and strong.",
+            "Family is the heart of a home.",
+            "The family – that dear octopus from whose tentacles we never quite escape, nor, in our inmost hearts, ever quite wish to.",
+            "It didn’t matter how big our house was; it mattered that there was love in it.",
+            "When trouble comes, it’s your family that supports you.",
+            "The only rock I know that stays steady, the only institution I know that works, is the family.",
+            "Call it a clan, call it a network, call it a tribe, call it a family: Whatever you call it, whoever you are, you need one.",
+            "The bond that links your true family is not one of blood, but of respect and joy in each other’s life.",
+          
+        };
+
         public static string[] ForLove = {
             "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
             "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",

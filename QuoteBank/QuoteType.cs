@@ -11,5 +11,6 @@ namespace QuoteBank
         public const string Motivation = "Motivation";
         public const string Love = "Love";
         public const string Wisdom = "Wisdom";
+        public const string Family = "Family";
     }
 }
